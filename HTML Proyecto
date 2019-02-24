@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TABLAS DESARROLLADAS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <marquee> KALEB RAFAEL FUENTES PUELLO</marquee>
+    <center> <h1>SUPER MARKET</h1> </center>
+    <table border="2" align="center" >
+        <tr>
+            <td colspan="11" align="center">Los alimentos </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">Energeticos</td>
+            <td colspan="4" align="center">Plasticos</td>
+            <td colspan="4" align="center">Reguladores</td>
+            <td colspan="2" align="center"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">Azucares</td>
+            <td colspan="2" align="center">Grasas</td>
+            <td colspan="4" align="center">Proteinas</td>
+            <td colspan="4" align="center">Vitaminas</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">Dulces</td>
+            <td colspan="2" align="center">Carne</td>
+            <td colspan="2" align="center">Huevos</td>
+            <td colspan="2" align="center">Legumbres</td>
+            <td colspan="2" align="center">Frutas</td>
+            <td colspan="2" align="center">Verduras</td>
+        </tr>
+        <tr>
+            <td colspan="2"><img src="helado.png" width="100" height="100"/></td>
+            <td colspan="2"><img src="hamburguesa.png" width="100" height="100"/></td>
+            <td colspan="2"><img src="huevo.jpg" width="100" height="100"/></td>
+            <td colspan="2"><img src="legumbres.png" width="100" height="100"/></td>
+            <td colspan="2"><img src="frutas.png" width="100" height="100"/></td>
+            <td colspan="2"><img src="verduras.jpg" width="100" height="100"/></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>  
+    <br>        
+    <center> <h1>HORARIO</h1> </center>
+    <table border="2" align="center" >
+        <tr>
+            <td colspan="19" align="center">Horario </td>
+        </tr>
+        <tr>
+            <td colspan="2" ></td>
+            <td colspan="3" align="center">Lunes</td>
+            <td colspan="3" align="center">Martes</td>
+            <td colspan="3" align="center">Miercoles</td>
+            <td colspan="3" align="center">Jueves</td>
+            <td colspan="3" align="center">Viernes</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">15:00</td>
+            <td colspan="3" align="center">Informatica</td>
+            <td colspan="14" ></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">16:00</td>
+            <td colspan="3" align="center">Matematicas</td>
+            <td colspan="3" align="center">Matematicas</td>
+            <td colspan="3" align="center">Ingles</td>
+            <td colspan="3" align="center">Lenguaje</td>
+            <td colspan="3" align="center">Informatica</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">17:00</td>
+            <td colspan="3" align="center">Ingles</td>
+            <td colspan="3" align="center">Quimica</td>
+            <td colspan="3" align="center">Lenguaje</td>
+            <td colspan="3" align="center">Matematicas</td>
+            <td colspan="3" align="center">Informatica</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">18:00</td>
+            <td colspan="17" align="center">Descanso</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">18:30</td>
+            <td colspan="3" align="center">Dibujo</td>
+            <td colspan="3" align="center">Ingles</td>
+            <td colspan="3" align="center">Quimica</td>
+            <td colspan="3" align="center">Quimica</td>
+            <td colspan="3" align="center">Fisica</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">19:30</td>
+            <td colspan="3" align="center">Filosofia</td>
+            <td colspan="3" align="center">Dibujo</td>
+            <td colspan="3" align="center">Fisica</td>
+            <td colspan="3" align="center">Filosofia</td>
+            <td colspan="3" align="center">Filosofia</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">20:00</td>
+            <td colspan="3" align="center"></td>
+            <td colspan="3" align="center"></td>
+            <td colspan="3" align="center">Dibujo</td>
+            <td colspan="3" align="center">Dibujo</td>
+            <td colspan="3" align="center"></td>
+        </tr>
+    </table>
+    <center> <h1>ENCUESTA INFORMÁTICA</h1> </center>
+    <form action="">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <table>
+                <tr>
+                    <td>
+                        <p>Edad: <input type="text" /></p>
+                    </td>
+                    <td>
+                        <p>
+                            Sexo: <input type="radio" name="gender" value="male" checked /> Hombre
+                            <input type="radio" name="gender" value="male" checked /> Mujer
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            ¿ Estás Estudiando ?
+                            <select>
+                                <option value="1"></option>
+                                <option value="2">Si</option>
+                                <option value="3">No</option>
+                            </select>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Preguntas Generales</legend>
+            <table>
+                <tr class="grayback">
+                    <td>
+                        ¿Tienes ordenador en tu casa?
+                        <input type="radio" name="gender" value="male" checked /> Si
+                        <input type="radio" name="gender" value="male" checked /> No
+                    </td>
+                </tr>
+                <tr class="grayback">
+                    <td>
+                        ¿Lo utilizas sólo tú o lo compartes con otras personas?
+                        <input type="radio" name="gender" value="male" checked /> Propio
+                        <input type="radio" name="gender" value="male" checked /> Compartido
+                    </td>
+                </tr>
+                <tr class="grayback">
+                    <td>En períodos de clase:
+                        <ul>
+                            <li>¿Cuántos días a la semana sueles tener sexo con el ordenador? <select>
+                                    <option value="1"></option>
+                                    <option value="2">1 Hr</option>
+                                    <option value="3">2 Hr</option>
+                                    <option value="2">3 Hr</option>
+                                    <option value="3">4 Hr</option>
+                                    <option value="2">5 Hr</option>
+                                    <option value="3">6 Hr</option>
+                                </select></li>
+                            <li>¿Cuántas horas diarias sueles gastar en el ordenador (cada día)? <select>
+                                    <option value="1"></option>
+                                    <option value="2">1 Hr</option>
+                                    <option value="3">2 Hr</option>
+                                    <option value="2">3 Hr</option>
+                                    <option value="3">4 Hr</option>
+                                    <option value="2">5 Hr</option>
+                                    <option value="3">6 Hr</option>
+                                </select></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="grayback">
+                    <td>En períodos de vacaciones:
+                        <ul>
+                            <li>¿Cuántos días a la semana sueles encender el ordenador? <select>
+
+                                    <option value="1"></option>
+                                    <option value="2">1 Hr</option>
+                                    <option value="3">2 Hr</option>
+                                    <option value="2">3 Hr</option>
+                                    <option value="3">4 Hr</option>
+                                    <option value="2">5 Hr</option>
+                                    <option value="3">6 Hr</option>
+                                </select></li>
+                            <li>¿Cuántas horas diarias sueles gastar en el ordenador (cada día)? <select>
+                                    <option value="1"></option>
+                                    <option value="2">1 Hr</option>
+                                    <option value="3">2 Hr</option>
+                                    <option value="2">3 Hr</option>
+                                    <option value="3">4 Hr</option>
+                                    <option value="2">5 Hr</option>
+                                    <option value="3">6 Hr</option>
+                                </select></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="grayback">
+                    <td>¿A qué dedicas tu tiempo en el ordenador?
+                        <div style="margin-left: 10px">
+                            <input type="checkbox" name="" value="1"> Escribir
+                            <input type="checkbox" name="" value="2"> Dibujar
+                            <input type="checkbox" name="" value="3"> Programar
+                            <input type="checkbox" name="" value="4"> Hacer música
+                            <input type="checkbox" name="" value="5"> Retoque Fotográfico
+                            <br>
+                            <input type="checkbox" name="" value="6"> Jugar
+                            <input type="checkbox" name="" value="7"> Ver páginas web
+                            <input type="checkbox" name="" value="8"> Chatear
+                            <input type="checkbox" name="" value="9"> Intercambiar música
+                            <input type="checkbox" name="" value="10"> Intercambiar Películas/series
+                        </div>
+                        <p>
+                            Otras actividades (especifica):
+                            <input type="text">
+                            <input type="text">
+                            <input type="text">
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+    </form>
+
+
+</body>
+</html>
+
